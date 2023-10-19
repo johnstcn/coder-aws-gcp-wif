@@ -30,6 +30,8 @@ The following resources are created:
 
 1. Follow the instructions in `instructions.txt` to complete the setup.
 
+    > Note: this file is generated after running `terraform apply`.
+
 ## Cleanup
 
 > Note: before destroying the Terraform configuration, ensure you have deleted any Coder workspaces
