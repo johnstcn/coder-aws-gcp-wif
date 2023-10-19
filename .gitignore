@@ -1,4 +1,4 @@
-gcp-crds.json
+gcp-creds.json
 terraform.tfstate
 terraform.tfstate.backup
 .terraform
