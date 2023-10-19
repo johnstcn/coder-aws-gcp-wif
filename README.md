@@ -11,14 +11,12 @@ The following resources are created:
 - A GCP workload identity pool configured to allow the AWS role assumed by the Coder instance to
   authenticate as the GCP service account
 
-
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html)
 - AWS account configured with AWS CLI
 - GCP account and project configured with gcloud CLI
 - AWS keypair (see [AWS documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html))
-
 
 ## Usage
 
@@ -31,7 +29,6 @@ The following resources are created:
     > Note: You must specify at least the variables `aws_keypair`, `gcp_project`, and `name`.
 
 1. Follow the instructions in `instructions.txt` to complete the setup.
-
 
 ## Cleanup
 
